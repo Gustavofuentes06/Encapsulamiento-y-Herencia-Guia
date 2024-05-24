@@ -48,4 +48,10 @@ public class vehiculo {
         System.out.println("año"+año);
         System.out.println("kilometraje"+kilometraje);
     }
+    public void realizarMantenimiento(){
+        System.out.println("-Las acciones a relizar son: ");
+        System.out.println("-Revisa la presión de los neumáticos");
+        System.out.println("-Cambia regularmente el aceite y el filtro del motor");
+        System.out.println("-Cambia el aceite y el filtro de aceite");
+    }
 }

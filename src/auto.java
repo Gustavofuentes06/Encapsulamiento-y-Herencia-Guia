@@ -21,4 +21,20 @@ public class auto extends vehiculopasajeros {
 
 
 
+    public void realizarMantenimiento(){
+        super.realizarMantenimiento();
+        System.out.println("-Dale mantenimiento a la batería");
+        System.out.println("-Chequea el líquido de frenos");
+        System.out.println("-Mantén limpio el motor");
+        System.out.println("-Revisa si la bujía está defectuosa");
+    }
+    public int Costomantenimiento (int costoporKM, int kilometrosrecorridos){
+        int costototal= costoporKM * kilometrosrecorridos;
+        return costototal;
+
+    }
+
+
+
+
 }
