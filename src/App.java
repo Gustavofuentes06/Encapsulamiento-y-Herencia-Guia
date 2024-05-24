@@ -11,5 +11,17 @@ public class App {
         System.out.println("");
         System.out.println("informacion del camion");
         Camion.mostrarinfo();
+
+        System.out.println(" ");
+        
+
+        System.out.println("Mantenimiento del camion ");
+        Camion.realizarMantenimiento();
+        System.out.println("");
+        System.out.println("Mantenimiento del auto");
+        Auto.realizarMantenimiento();
+        System.out.println("");
+
+        System.out.println("El costo por el mantenimmiento del auto es de: $"+Auto.Costomantenimiento(10, 20));
     }
 }

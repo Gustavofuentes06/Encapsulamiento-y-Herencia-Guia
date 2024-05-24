@@ -19,4 +19,11 @@ public class camion extends vehiculodecarga {
         System.out.println(" La cantidad de ejes es de: "+ numEjes);
     }
 
+public void realizarMantenimiento(){
+    super.realizarMantenimiento();
+    System.out.println("-Verifica los otros fluidos");
+    System.out.println("-Rota tus neumáticos");
+    System.out.println("-Limpia el exterior de tu camión");
+    System.out.println("-Lleva tu camión a las revisiones técnicas");
+}
 }

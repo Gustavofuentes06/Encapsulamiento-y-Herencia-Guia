@@ -18,4 +18,5 @@ public class vehiculodecarga extends vehiculo {
             super.mostrarinfo();
             System.out.println("capacidad de carga "+ capacidaddecarga+ "kg");
         }
+        
 }
