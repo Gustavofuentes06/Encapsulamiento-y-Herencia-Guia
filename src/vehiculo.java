@@ -43,10 +43,10 @@ public class vehiculo {
     
 
     public void mostrarinfo(){
-        System.out.println("marca"+marca);
-        System.out.println("modelo"+modelo);
-        System.out.println("año"+año);
-        System.out.println("kilometraje"+kilometraje);
+        System.out.println("marca "+marca);
+        System.out.println("modelo "+modelo);
+        System.out.println("año "+año);
+        System.out.println("kilometraje "+kilometraje);
     }
     public void realizarMantenimiento(){
         System.out.println("-Las acciones a relizar son: ");
