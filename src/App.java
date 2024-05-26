@@ -22,6 +22,6 @@ public class App {
         Auto.realizarMantenimiento();
         System.out.println("");
 
-        System.out.println("El costo por el mantenimmiento del auto es de: $"+Auto.Costomantenimiento(10, 20));
+        System.out.println("El costo por el mantenimmiento del auto es de: $"+Auto.Costomantenimiento(10,15000 ));
     }
 }
